@@ -22,11 +22,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html>
+    <html lang="en">
       <head>
         <title>Wisteria Innovations</title>
       </head>
-      <body>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
         {children}
         <Footer />
@@ -34,17 +34,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-
-// export default function RootLayout({
-//   children,
-// }: Readonly<{
-//   children: React.ReactNode;
-// }>) {
-//   return (
-//     <html lang="en">
-//       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-//         {children}
-//       </body>
-//     </html>
-//   );
-// }
