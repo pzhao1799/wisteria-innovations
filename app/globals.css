@@ -17,7 +17,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #140f0f;
+    --background: #000000;
     --foreground: #ededed;
     --wisteria: #7A288A; /* dark mode wisteria purple */
     --wisteria-dark: #4C0070; /* dark mode wisteria dark purple */
