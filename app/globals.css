@@ -7,6 +7,12 @@
   --foreground: #171717;
   --wisteria: #C9C3E6; /* light wisteria purple */
   --wisteria-dark: #d36ae8; /* dark wisteria purple */
+  --lavender: #C7B8EA; /* soft lavender */
+  --plum: #660066; /* rich plum */
+  --dusk: #6c5ce7; /* blue-purple dusk */
+  --midnight: #343A40; /* dark blue-purple */
+  --border: #E5E5EA; /* light gray */
+  --shadow: #00000020; /* subtle shadow */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +21,12 @@
     --foreground: #ededed;
     --wisteria: #7A288A; /* dark mode wisteria purple */
     --wisteria-dark: #4C0070; /* dark mode wisteria dark purple */
+    --lavender: #8E44AD; /* dark lavender */
+    --plum: #4B0082; /* dark plum */
+    --dusk: #3B3F54; /* dark blue-purple */
+    --midnight: #1A1D23; /* darker blue-purple */
+    --border: #333333; /* dark gray */
+    --shadow: #00000040; /* subtle shadow (darker) */
   }
 }
 

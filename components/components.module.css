@@ -1,6 +1,5 @@
 /* components/components.module.css */
 .header {
-  background-color: var(--wisteria);
   padding: 18px;
   font-size: 20px;
   font-family: var(--font-geist-sans);
@@ -12,13 +11,12 @@
 }
 
 .header a:hover {
-  color: var(--wisteria-dark);
+  color: var(--wisteria);
 }
 
 /* Footer */
 
 .footer {
-  background-color: var(--wisteria);
   color: var(--gray-600);
   padding: 16px;
   text-align: center;
@@ -45,10 +43,8 @@
   margin: 0;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .footer a:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
+.footer a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--wisteria);
 }
-

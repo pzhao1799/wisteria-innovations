@@ -12,7 +12,6 @@ export default function Home() {
           alt="Wisteria Innovations logo"
           width={280}
           height={10}
-          priority
         />
         <h1 className={styles.title}>Wisteria Innovations</h1>
         <p className={styles.description}>

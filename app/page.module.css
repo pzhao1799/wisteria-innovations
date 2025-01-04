@@ -10,9 +10,7 @@
   grid-template-rows: 1fr 20fr 4fr;
   align-items: center;
   justify-items: center;
-  min-height: 50svh;
-  padding: 20px;
-  gap: 10px;
+  min-height: 60svh;
   font-family: var(--font-geist-sans);
 }
 
@@ -20,11 +18,13 @@
   text-align: center;
   font-size: 50px;
   font-weight: bold;
+  padding: 12px;
 }
 
 .description {
   text-align: center;
   font-size: 20px;
+  padding-bottom: 22px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,7 +41,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   grid-row-start: 2;
   align-items: center;
 }
@@ -53,10 +52,6 @@
   line-height: 24px;
   letter-spacing: -0.01em;
   list-style-position: inside;
-}
-
-.main li:not(:last-of-type) {
-  margin-bottom: 8px;
 }
 
 .main code {
@@ -90,12 +85,13 @@
 
 a.primary {
   background: var(--foreground);
-  color: var(--background);
+  color: var(--wisteria-dark);
   gap: 8px;
 }
 
 a.secondary {
   border-color: var(--gray-alpha-200);
+  background: var(--wisteria-dark);
   min-width: 180px;
 }
 
