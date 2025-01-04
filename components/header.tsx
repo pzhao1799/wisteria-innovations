@@ -1,10 +1,10 @@
 // components/header.tsx
 import Link from 'next/link';
-import './header.css'; // Import CSS file
+import styles from './components.module.css'; // Import shared CSS module
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className={styles.header}>
       <nav>
         <Link href="#">Wisteria Innovations</Link>
       </nav>

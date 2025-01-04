@@ -6,12 +6,12 @@
   --background: #ffffff;
   --foreground: #171717;
   --wisteria: #C9C3E6; /* light wisteria purple */
-  --wisteria-dark: #7A288A; /* dark wisteria purple */
+  --wisteria-dark: #d36ae8; /* dark wisteria purple */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #140f0f;
     --foreground: #ededed;
     --wisteria: #7A288A; /* dark mode wisteria purple */
     --wisteria-dark: #4C0070; /* dark mode wisteria dark purple */
@@ -21,5 +21,4 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
